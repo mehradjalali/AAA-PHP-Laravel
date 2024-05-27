@@ -144,9 +144,14 @@
                                     </div>
                                 </div>
                                 <div class="h-avatar is-big">
+                                    @if(isset($user->image))
                                     <img class="avatar" src="https://via.placeholder.com/150x150"
                                         data-demo-src="{{asset('/assets/img/avatars/photos/' . $user->image . '')}}"
                                         alt="" data-user-popover=" 6">
+                                    @else
+                                    <img src="https://via.placeholder.com/150x150"
+                                        data-demo-src="{{asset('assets/img/avatars/placeholder.jpg')}}" alt="">
+                                    @endif
                                 </div>
                                 <h3 class="dark-inverted" data-filter-match>{{$user->name}}</h3>
                                 @foreach ($user->getRole() as $role)

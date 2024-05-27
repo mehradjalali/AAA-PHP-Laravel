@@ -343,13 +343,8 @@
                     </li> <!-- Profile -->
                     <li id="user-menu">
                         <div id="profile-menu" class="dropdown profile-dropdown dropdown-trigger is-spaced is-up">
-                            @if(isset(Auth::user()->image))
                             <img src="https://via.placeholder.com/150x150"
-                                data-demo-src="{{asset('assets/img/avatars/photos/'. Auth::user()->image .'')}}" alt="">
-                            @else
-                            <img src="https://via.placeholder.com/150x150"
-                                data-demo-src="{{asset('assets/img/avatars/placeholder.jpg')}}" alt="">
-                            @endif
+                                data-demo-src="{{asset('assets/img/avatars/photos/8.jpg')}}" alt="">
                             <span class="status-indicator"></span>
 
                             <div class="dropdown-menu" role="menu">
@@ -2090,25 +2085,12 @@
                                 </div>
                             </div>
 
+
                             <a class="toolbar-link right-panel-trigger" data-panel="activity-panel">
                                 <i data-feather="grid"></i>
                             </a>
-
                         </div>
-
-                        <form method="POST" action="{{ route('logout') }}">
-                            @csrf
-
-                            <x-dropdown-link :href="route('logout')" onclick="event.preventDefault();
-                                                this.closest('form').submit();">
-                                <div class="title-wrap">
-                                    <h1 class="title is-4">Log Out </h1>
-                                </div>
-
-                            </x-dropdown-link>
-                        </form>
                     </div>
-
 
                     <div class="page-content-inner">
                         <div class="container-fluid">
