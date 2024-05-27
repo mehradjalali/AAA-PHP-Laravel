@@ -14,10 +14,10 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
 
     <title>Huro Test</title>
-    <link rel="icon" type="image/png" href="assets/img/favicon.png" />
+    <link rel="icon" type="image/png" href="{{asset('assets/img/favicon.png')}}" />
 
     <!--Core CSS -->
-    <link rel="stylesheet" href="assets/css/app.css" type="text/css" />
+    <link rel="stylesheet" href="{{asset('assets/css/app.css')}}" type="text/css" />
 
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800;900&amp;display=swap"
@@ -49,8 +49,8 @@
                     </div>
 
                     <a class="navbar-item is-brand" href="index-3.html">
-                        <img class="light-image" src="assets/img/logos/logo/logo.svg" alt="">
-                        <img class="dark-image" src="assets/img/logos/logo/logo-light.svg" alt="">
+                        <img class="light-image" src="{{asset('assets/img/logos/logo/logo.svg')}}" alt="">
+                        <img class="dark-image" src="{{asset('assets/img/logos/logo/logo-light.svg')}}" alt="">
                     </a>
 
                     <div class="brand-end">
@@ -76,7 +76,7 @@
                                                 <div class="img-left">
                                                     <img class="user-photo" alt=""
                                                         src="https://via.placeholder.com/150x150"
-                                                        data-demo-src="assets/img/avatars/photos/7.jpg" />
+                                                        data-demo-src="{{asset('assets/img/avatars/photos/7.jpg')}}" />
                                                 </div>
                                                 <div class="user-content">
                                                     <p class="user-info"><span class="name">آلیس</span> دیدگاهی گذاشت.
@@ -90,7 +90,7 @@
                                                 <div class="img-left">
                                                     <img class="user-photo" alt=""
                                                         src="https://via.placeholder.com/150x150"
-                                                        data-demo-src="assets/img/avatars/photos/12.jpg" />
+                                                        data-demo-src="{{asset('assets/img/avatars/photos/12.jpg')}}" />
                                                 </div>
                                                 <div class="user-content">
                                                     <p class="user-info"><span class="name">پاشا</span> فایلی را آپلود
@@ -104,7 +104,7 @@
                                                 <div class="img-left">
                                                     <img class="user-photo" alt=""
                                                         src="https://via.placeholder.com/150x150"
-                                                        data-demo-src="assets/img/avatars/photos/13.jpg" />
+                                                        data-demo-src="{{asset('assets/img/avatars/photos/13.jpg')}}" />
                                                 </div>
                                                 <div class="user-content">
                                                     <p class="user-info"><span class="name">رویا</span> به شما پیغامی
@@ -118,7 +118,7 @@
                                                 <div class="img-left">
                                                     <img class="user-photo" alt=""
                                                         src="https://via.placeholder.com/150x150"
-                                                        data-demo-src="assets/img/avatars/photos/25.jpg" />
+                                                        data-demo-src="{{asset('assets/img/avatars/photos/25.jpg')}}" />
                                                 </div>
                                                 <div class="user-content">
                                                     <p class="user-info"><span class="name">سارا</span> دیدگاهی گذاشت.
@@ -135,7 +135,7 @@
                             <div class="is-trigger" aria-haspopup="true">
                                 <div class="profile-avatar">
                                     <img class="avatar" src="https://via.placeholder.com/150x150"
-                                        data-demo-src="assets/img/avatars/photos/8.jpg" alt="">
+                                        data-demo-src="{{asset('assets/img/avatars/photos/8.jpg')}}" alt="">
                                 </div>
                             </div>
                             <div class="dropdown-menu" role="menu">
@@ -143,7 +143,7 @@
                                     <div class="dropdown-head">
                                         <div class="h-avatar is-large">
                                             <img class="avatar" src="https://via.placeholder.com/150x150"
-                                                data-demo-src="assets/img/avatars/photos/8.jpg" alt="">
+                                                data-demo-src="{{asset('assets/img/avatars/photos/8.jpg')}}" alt="">
                                         </div>
                                         <div class="meta">
                                             <span>اریک کالسکی</span>
@@ -275,7 +275,7 @@
                     </label>
                 </div>
                 <a class="menu-item is-flex right-panel-trigger" data-panel="languages-panel">
-                    <img src="assets/img/icons/flags/united-states-of-america.svg" alt="">
+                    <img src="{{asset('assets/img/icons/flags/united-states-of-america.svg')}}" alt="">
                 </a>
                 <a class="menu-item is-flex">
                     <i data-feather="bell"></i>
@@ -290,8 +290,8 @@
         <div class="main-sidebar is-float">
             <div class="sidebar-brand">
                 <a href="index-2.html">
-                    <img class="light-image" src="assets/img/logos/logo/logo.svg" alt="">
-                    <img class="dark-image" src="assets/img/logos/logo/logo-light.svg" alt="">
+                    <img class="light-image" src="{{asset('assets/img/logos/logo/logo.svg')}}" alt="">
+                    <img class="dark-image" src="{{asset('assets/img/logos/logo/logo-light.svg')}}" alt="">
                 </a>
             </div>
             <div class="sidebar-inner">
@@ -344,7 +344,7 @@
                     <li id="user-menu">
                         <div id="profile-menu" class="dropdown profile-dropdown dropdown-trigger is-spaced is-up">
                             <img src="https://via.placeholder.com/150x150"
-                                data-demo-src="assets/img/avatars/photos/8.jpg" alt="">
+                                data-demo-src="{{asset('assets/img/avatars/photos/8.jpg')}}" alt="">
                             <span class="status-indicator"></span>
 
                             <div class="dropdown-menu" role="menu">
@@ -352,7 +352,7 @@
                                     <div class="dropdown-head">
                                         <div class="h-avatar is-large">
                                             <img class="avatar" src="https://via.placeholder.com/150x150"
-                                                data-demo-src="assets/img/avatars/photos/8.jpg" alt="">
+                                                data-demo-src="{{asset('assets/img/avatars/photos/8.jpg')}}" alt="">
                                         </div>
                                         <div class="meta">
                                             <span>اریک کالسکی</span>
@@ -442,7 +442,7 @@
                             <div class="language-option">
                                 <input type="radio" name="language_selection" checked>
                                 <div class="language-option-inner">
-                                    <img src="assets/img/icons/flags/united-states-of-america.svg" alt="">
+                                    <img src="{{asset('assets/img/icons/flags/united-states-of-america.svg')}}" alt="">
                                     <div class="indicator">
                                         <i data-feather="check"></i>
                                     </div>
@@ -454,7 +454,7 @@
                             <div class="language-option">
                                 <input type="radio" name="language_selection">
                                 <div class="language-option-inner">
-                                    <img src="assets/img/icons/flags/france.svg" alt="">
+                                    <img src="{{asset('assets/img/icons/flags/france.svg')}}" alt="">
                                     <div class="indicator">
                                         <i data-feather="check"></i>
                                     </div>
@@ -466,7 +466,7 @@
                             <div class="language-option">
                                 <input type="radio" name="language_selection">
                                 <div class="language-option-inner">
-                                    <img src="assets/img/icons/flags/spain.svg" alt="">
+                                    <img src="{{asset('assets/img/icons/flags/spain.svg')}}" alt="">
                                     <div class="indicator">
                                         <i data-feather="check"></i>
                                     </div>
@@ -478,7 +478,7 @@
                             <div class="language-option">
                                 <input type="radio" name="language_selection">
                                 <div class="language-option-inner">
-                                    <img src="assets/img/icons/flags/germany.svg" alt="">
+                                    <img src="{{asset('assets/img/icons/flags/germany.svg')}}" alt="">
                                     <div class="indicator">
                                         <i data-feather="check"></i>
                                     </div>
@@ -490,7 +490,7 @@
                             <div class="language-option">
                                 <input type="radio" name="language_selection">
                                 <div class="language-option-inner">
-                                    <img src="assets/img/icons/flags/mexico.svg" alt="">
+                                    <img src="{{asset('assets/img/icons/flags/mexico.svg')}}" alt="">
                                     <div class="indicator">
                                         <i data-feather="check"></i>
                                     </div>
@@ -502,7 +502,7 @@
                             <div class="language-option">
                                 <input type="radio" name="language_selection">
                                 <div class="language-option-inner">
-                                    <img src="assets/img/icons/flags/china.svg" alt="">
+                                    <img src="{{asset('assets/img/icons/flags/china.svg')}}" alt="">
                                     <div class="indicator">
                                         <i data-feather="check"></i>
                                     </div>
@@ -512,8 +512,10 @@
                     </div>
 
                     <div class="img-wrap has-text-centered">
-                        <img class="light-image" src="assets/img/illustrations/right-panel/languages.svg" alt="">
-                        <img class="dark-image" src="assets/img/illustrations/right-panel/languages-dark.svg" alt="">
+                        <img class="light-image" src="{{asset('assets/img/illustrations/right-panel/languages.svg')}}"
+                            alt="">
+                        <img class="dark-image"
+                            src="{{asset('assets/img/illustrations/right-panel/languages-dark.svg')}}" alt="">
                     </div>
                 </div>
             </div>
@@ -547,9 +549,10 @@
                             <div class="team-card">
                                 <div class="h-avatar">
                                     <img class="avatar" src="https://via.placeholder.com/150x150"
-                                        data-demo-src="assets/img/avatars/photos/12.jpg" alt="">
+                                        data-demo-src="{{asset('assets/img/avatars/photos/12.jpg')}}" alt="">
                                     <img class="badge" src="https://via.placeholder.com/150x150"
-                                        data-demo-src="assets/img/icons/flags/united-states-of-america.svg" alt="">
+                                        data-demo-src="{{asset('assets/img/icons/flags/united-states-of-america.svg')}}"
+                                        alt="">
                                 </div>
                                 <div class="meta">
                                     <span>پاشا</span>
@@ -567,9 +570,10 @@
                             <div class="team-card">
                                 <div class="h-avatar">
                                     <img class="avatar" src="https://via.placeholder.com/150x150"
-                                        data-demo-src="assets/img/avatars/photos/25.jpg" alt="">
+                                        data-demo-src="{{asset('assets/img/avatars/photos/25.jpg')}}" alt="">
                                     <img class="badge" src="https://via.placeholder.com/150x150"
-                                        data-demo-src="assets/img/icons/flags/united-states-of-america.svg" alt="">
+                                        data-demo-src="{{asset('assets/img/icons/flags/united-states-of-america.svg')}}"
+                                        alt="">
                                 </div>
                                 <div class="meta">
                                     <span>سارا</span>
@@ -587,9 +591,10 @@
                             <div class="team-card">
                                 <div class="h-avatar">
                                     <img class="avatar" src="https://via.placeholder.com/150x150"
-                                        data-demo-src="assets/img/avatars/photos/18.jpg" alt="">
+                                        data-demo-src="{{asset('assets/img/avatars/photos/18.jpg')}}" alt="">
                                     <img class="badge" src="https://via.placeholder.com/150x150"
-                                        data-demo-src="assets/img/icons/flags/united-states-of-america.svg" alt="">
+                                        data-demo-src="{{asset('assets/img/icons/flags/united-states-of-america.svg')}}"
+                                        alt="">
                                 </div>
                                 <div class="meta">
                                     <span>Esteban C.</span>
@@ -607,9 +612,10 @@
                             <div class="team-card">
                                 <div class="h-avatar">
                                     <img class="avatar" src="https://via.placeholder.com/150x150"
-                                        data-demo-src="assets/img/avatars/photos/13.jpg" alt="">
+                                        data-demo-src="{{asset('assets/img/avatars/photos/13.jpg')}}" alt="">
                                     <img class="badge" src="https://via.placeholder.com/150x150"
-                                        data-demo-src="assets/img/icons/flags/united-states-of-america.svg" alt="">
+                                        data-demo-src="{{asset('assets/img/icons/flags/united-states-of-america.svg')}}"
+                                        alt="">
                                 </div>
                                 <div class="meta">
                                     <span>رویا</span>
@@ -629,7 +635,7 @@
                             <div class="project-card">
                                 <div class="project-inner">
                                     <img class="project-avatar" src="https://via.placeholder.com/150x150"
-                                        data-demo-src="assets/img/icons/logos/slicer.svg" alt="">
+                                        data-demo-src="{{asset('assets/img/icons/logos/slicer.svg')}}" alt="">
                                     <div class="meta">
                                         <span>پروژه اسلایسر</span>
                                         <span>vahid.xyz</span>
@@ -646,15 +652,15 @@
                                         <div class="avatar-stack">
                                             <div class="h-avatar is-small">
                                                 <img class="avatar" src="https://via.placeholder.com/150x150"
-                                                    data-demo-src="assets/img/avatars/photos/7.jpg" alt="">
+                                                    data-demo-src="{{asset('assets/img/avatars/photos/7.jpg')}}" alt="">
                                             </div>
                                             <div class="h-avatar is-small">
                                                 <img class="avatar" src="https://via.placeholder.com/150x150"
-                                                    data-demo-src="assets/img/avatars/photos/5.jpg" alt="">
+                                                    data-demo-src="{{asset('assets/img/avatars/photos/5.jpg')}}" alt="">
                                             </div>
                                             <div class="h-avatar is-small">
                                                 <img class="avatar" src="https://via.placeholder.com/150x150"
-                                                    data-demo-src="assets/img/avatars/photos/8.jpg" alt="">
+                                                    data-demo-src="{{asset('assets/img/avatars/photos/8.jpg')}}" alt="">
                                             </div>
                                         </div>
                                     </div>
@@ -665,7 +671,7 @@
                             <div class="project-card">
                                 <div class="project-inner">
                                     <img class="project-avatar" src="https://via.placeholder.com/150x150"
-                                        data-demo-src="assets/img/icons/logos/metamovies.svg" alt="">
+                                        data-demo-src="{{asset('assets/img/icons/logos/metamovies.svg')}}" alt="">
                                     <div class="meta">
                                         <span>بازسازی فیلم های متا</span>
                                         <span>metamovies.co</span>
@@ -682,11 +688,13 @@
                                         <div class="avatar-stack">
                                             <div class="h-avatar is-small">
                                                 <img class="avatar" src="https://via.placeholder.com/150x150"
-                                                    data-demo-src="assets/img/avatars/photos/13.jpg" alt="">
+                                                    data-demo-src="{{asset('assets/img/avatars/photos/13.jpg')}}"
+                                                    alt="">
                                             </div>
                                             <div class="h-avatar is-small">
                                                 <img class="avatar" src="https://via.placeholder.com/150x150"
-                                                    data-demo-src="assets/img/avatars/photos/18.jpg" alt="">
+                                                    data-demo-src="{{asset('assets/img/avatars/photos/18.jpg')}}"
+                                                    alt="">
                                             </div>
                                         </div>
                                     </div>
@@ -697,7 +705,7 @@
                             <div class="project-card">
                                 <div class="project-inner">
                                     <img class="project-avatar" src="https://via.placeholder.com/150x150"
-                                        data-demo-src="assets/img/icons/logos/fastpizza.svg" alt="">
+                                        data-demo-src="{{asset('assets/img/icons/logos/fastpizza.svg')}}" alt="">
                                     <div class="meta">
                                         <span> طراحی مجدد پیتزای سریع</span>
                                         <span>fastpizza.com</span>
@@ -714,11 +722,12 @@
                                         <div class="avatar-stack">
                                             <div class="h-avatar is-small">
                                                 <img class="avatar" src="https://via.placeholder.com/150x150"
-                                                    data-demo-src="assets/img/avatars/photos/7.jpg" alt="">
+                                                    data-demo-src="{{asset('assets/img/avatars/photos/7.jpg')}}" alt="">
                                             </div>
                                             <div class="h-avatar is-small">
                                                 <img class="avatar" src="https://via.placeholder.com/150x150"
-                                                    data-demo-src="assets/img/avatars/photos/25.jpg" alt="">
+                                                    data-demo-src="{{asset('assets/img/avatars/photos/25.jpg')}}"
+                                                    alt="">
                                             </div>
                                         </div>
                                     </div>
@@ -743,7 +752,7 @@
                                 <div class="timeline-item">
                                     <div class="timeline-icon">
                                         <img class="avatar" src="https://via.placeholder.com/150x150"
-                                            data-demo-src="assets/img/avatars/photos/7.jpg" alt="">
+                                            data-demo-src="{{asset('assets/img/avatars/photos/7.jpg')}}" alt="">
                                     </div>
                                     <div class="timeline-content">
                                         <p>جلسه با آلیس</p>
@@ -816,8 +825,8 @@
 
             <div class="right-panel">
                 <div class="right-panel-head">
-                    <img class="light-image" src="assets/img/logos/logo/logo.svg" alt="" />
-                    <img class="dark-image" src="assets/img/logos/logo/logo-light.svg" alt="" />
+                    <img class="light-image" src="{{asset('assets/img/logos/logo/logo.svg')}}" alt="" />
+                    <img class="dark-image" src="{{asset('assets/img/logos/logo/logo-light.svg')}}" alt="" />
                     <a class="close-panel">
                         <i data-feather="chevron-left"></i>
                     </a>
@@ -872,7 +881,8 @@
                             <a class="media-flex-center">
                                 <div class="h-avatar is-small">
                                     <img class="avatar" src="https://via.placeholder.com/150x150"
-                                        data-demo-src="assets/img/avatars/photos/7.jpg" alt="" data-user-popover="0">
+                                        data-demo-src="{{asset('assets/img/avatars/photos/7.jpg')}}" alt=""
+                                        data-user-popover="0">
                                 </div>
                                 <div class="flex-meta">
                                     <span>آلیس</span>
@@ -882,7 +892,8 @@
                             <a class="media-flex-center">
                                 <div class="h-avatar is-small">
                                     <img class="avatar" src="https://via.placeholder.com/150x150"
-                                        data-demo-src="assets/img/avatars/photos/13.jpg" alt="" data-user-popover="6">
+                                        data-demo-src="{{asset('assets/img/avatars/photos/13.jpg')}}" alt=""
+                                        data-user-popover="6">
                                 </div>
                                 <div class="flex-meta">
                                     <span>رویا</span>
@@ -892,7 +903,8 @@
                             <a class="media-flex-center">
                                 <div class="h-avatar is-small">
                                     <img class="avatar" src="https://via.placeholder.com/150x150"
-                                        data-demo-src="assets/img/avatars/photos/22.jpg" alt="" data-user-popover="5">
+                                        data-demo-src="{{asset('assets/img/avatars/photos/22.jpg')}}" alt=""
+                                        data-user-popover="5">
                                 </div>
                                 <div class="flex-meta">
                                     <span>Jimmy H.</span>
@@ -1990,7 +2002,7 @@
                             </div>
 
                             <a class="toolbar-link right-panel-trigger" data-panel="languages-panel">
-                                <img src="assets/img/icons/flags/united-states-of-america.svg" alt="">
+                                <img src="{{asset('assets/img/icons/flags/united-states-of-america.svg')}}" alt="">
                             </a>
 
                             <div class="toolbar-notifications is-hidden-mobile">
@@ -2016,7 +2028,7 @@
                                                         <div class="img-left">
                                                             <img class="user-photo" alt=""
                                                                 src="https://via.placeholder.com/150x150"
-                                                                data-demo-src="assets/img/avatars/photos/7.jpg" />
+                                                                data-demo-src="{{asset('assets/img/avatars/photos/7.jpg')}}" />
                                                         </div>
                                                         <div class="user-content">
                                                             <p class="user-info"><span class="name">آلیس</span> دیدگاهی
@@ -2030,7 +2042,7 @@
                                                         <div class="img-left">
                                                             <img class="user-photo" alt=""
                                                                 src="https://via.placeholder.com/150x150"
-                                                                data-demo-src="assets/img/avatars/photos/12.jpg" />
+                                                                data-demo-src="{{asset('assets/img/avatars/photos/12.jpg')}}" />
                                                         </div>
                                                         <div class="user-content">
                                                             <p class="user-info"><span class="name">پاشا</span> فایلی را
@@ -2044,7 +2056,7 @@
                                                         <div class="img-left">
                                                             <img class="user-photo" alt=""
                                                                 src="https://via.placeholder.com/150x150"
-                                                                data-demo-src="assets/img/avatars/photos/13.jpg" />
+                                                                data-demo-src="{{asset('assets/img/avatars/photos/13.jpg')}}" />
                                                         </div>
                                                         <div class="user-content">
                                                             <p class="user-info"><span class="name">رویا</span> به شما
@@ -2058,7 +2070,7 @@
                                                         <div class="img-left">
                                                             <img class="user-photo" alt=""
                                                                 src="https://via.placeholder.com/150x150"
-                                                                data-demo-src="assets/img/avatars/photos/25.jpg" />
+                                                                data-demo-src="{{asset('assets/img/avatars/photos/25.jpg')}}" />
                                                         </div>
                                                         <div class="user-content">
                                                             <p class="user-info"><span class="name">سارا</span> دیدگاهی
@@ -2093,18 +2105,18 @@
         <!--Load Mapbox-->
 
         <!-- Concatenated plugins -->
-        <script src="assets/js/app.js"></script>
+        <script src="{{asset('assets/js/app.js')}}"></script>
 
         <!-- Huro js -->
-        <script src="assets/js/functions.js"></script>
-        <script src="assets/js/main.js" async></script>
-        <script src="assets/js/components.js" async></script>
-        <script src="assets/js/popover.js" async></script>
-        <script src="assets/js/widgets.js" async></script>
+        <script src="{{asset('assets/js/functions.js')}}"></script>
+        <script src="{{asset('assets/js/main.js')}}" async></script>
+        <script src="{{asset('assets/js/components.js')}}" async></script>
+        <script src="{{asset('assets/js/popover.js')}}" async></script>
+        <script src="{{asset('assets/js/widgets.js')}}" async></script>
 
 
         <!-- Additional Features -->
-        <script src="assets/js/touch.js" async></script>
+        <script src="{{asset('assets/js/touch.js')}}" async></script>
 
         <!-- Landing page js -->
 
@@ -2146,7 +2158,7 @@
 
 
 
-        <script src="assets/js/syntax.js" async></script>
+        <script src="{{asset('assets')}}/js/syntax.js" async></script>
     </div>
 </body>
 
