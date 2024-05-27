@@ -3132,7 +3132,7 @@
             "type": "library",
             "autoload": {
                 "files": [
-                    "Resources/now.php"
+                    "assets/now.php"
                 ],
                 "psr-4": {
                     "Symfony\\Component\\Clock\\": ""
@@ -3435,7 +3435,7 @@
                 "symfony/serializer": "^6.4|^7.0"
             },
             "bin": [
-                "Resources/bin/patch-type-declarations"
+                "assets/bin/patch-type-declarations"
             ],
             "type": "library",
             "autoload": {
@@ -4331,7 +4331,7 @@
                     "Symfony\\Polyfill\\Intl\\Normalizer\\": ""
                 },
                 "classmap": [
-                    "Resources/stubs"
+                    "assets/stubs"
                 ]
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -4562,7 +4562,7 @@
                     "Symfony\\Polyfill\\Php80\\": ""
                 },
                 "classmap": [
-                    "Resources/stubs"
+                    "assets/stubs"
                 ]
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -4643,7 +4643,7 @@
                     "Symfony\\Polyfill\\Php83\\": ""
                 },
                 "classmap": [
-                    "Resources/stubs"
+                    "assets/stubs"
                 ]
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -5025,7 +5025,7 @@
             "type": "library",
             "autoload": {
                 "files": [
-                    "Resources/functions.php"
+                    "assets/functions.php"
                 ],
                 "psr-4": {
                     "Symfony\\Component\\String\\": ""
@@ -5127,7 +5127,7 @@
             "type": "library",
             "autoload": {
                 "files": [
-                    "Resources/functions.php"
+                    "assets/functions.php"
                 ],
                 "psr-4": {
                     "Symfony\\Component\\Translation\\": ""
@@ -5353,12 +5353,12 @@
                 "twig/twig": "^3.0.4"
             },
             "bin": [
-                "Resources/bin/var-dump-server"
+                "assets/bin/var-dump-server"
             ],
             "type": "library",
             "autoload": {
                 "files": [
-                    "Resources/functions/dump.php"
+                    "assets/functions/dump.php"
                 ],
                 "psr-4": {
                     "Symfony\\Component\\VarDumper\\": ""
@@ -8884,7 +8884,7 @@
                 "symfony/console": "^6.4|^7.0"
             },
             "bin": [
-                "Resources/bin/yaml-lint"
+                "assets/bin/yaml-lint"
             ],
             "type": "library",
             "autoload": {
