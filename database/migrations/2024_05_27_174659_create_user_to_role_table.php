@@ -14,7 +14,7 @@ return new class extends Migration {
             $table->unsignedBigInteger('role_id');
             $table->foreign('user_id')->references('id')->on('users');
             $table->foreign('role_id')->references('role_id')->on('roles');
-            $table->unique('user_id', 'role_id');
+            $table->unique(['user_id', 'role_id']);
         });
     }
 
