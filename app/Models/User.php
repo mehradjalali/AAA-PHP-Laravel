@@ -46,7 +46,7 @@ class User extends Authenticatable {
     }
 
     public function getRole() {
-        $roles_array = UserToRole::select()->where('user_id', $this->id)->get();
+        $roles_array = RoleUser::select()->where('user_id', $this->id)->get();
         $roleNames = array();
         foreach ($roles_array as $roles) {
             $role = Roles::where('role_id', $roles->role_id)->first();
