@@ -1192,7 +1192,7 @@
                                 </a>
                             </li>
                             <li>
-                                <a class="is-submenu" href="admin-grid-users-4.html">
+                                <a class="is-submenu" href="{{route('users.all')}}">
                                     <i class="lnil lnil-users-alt"></i>
                                     <span>کاربران V4</span>
                                 </a>
@@ -1683,7 +1683,7 @@
                                 </a>
                             </li>
                             <li>
-                                <a class="is-submenu" href="admin-grid-users-4.html">
+                                <a class="is-submenu" href="{{route('users.all')}}">
                                     <i class="lnil lnil-users-alt"></i>
                                     <span>کاربران V4</span>
                                 </a>
@@ -2093,7 +2093,11 @@
                     </div>
 
                     <div class="page-content-inner">
-                        <!--Page content goes here-->
+                        <div class="container-fluid">
+                            <main class="py-4">
+                                @yield('content')
+                            </main>
+                        </div>
                     </div>
 
                 </div>
