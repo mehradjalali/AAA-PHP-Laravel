@@ -147,8 +147,6 @@
                                     <img class="avatar" src="https://via.placeholder.com/150x150"
                                         data-demo-src="{{asset('/assets/img/avatars/photos/' . $user->image . '')}}"
                                         alt="" data-user-popover=" 6">
-                                    <img class="badge" src="https://via.placeholder.com/150x150"
-                                        data-demo-src="assets/img/icons/stacks/illustrator.svg" alt="">
                                 </div>
                                 <h3 class="dark-inverted" data-filter-match>{{$user->name}}</h3>
                                 @foreach ($user->getRole() as $role)

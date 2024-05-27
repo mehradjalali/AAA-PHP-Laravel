@@ -344,7 +344,7 @@
                     <li id="user-menu">
                         <div id="profile-menu" class="dropdown profile-dropdown dropdown-trigger is-spaced is-up">
                             <img src="https://via.placeholder.com/150x150"
-                                data-demo-src="{{asset('assets/img/avatars/photos/8.jpg')}}" alt="">
+                                data-demo-src="{{asset('assets/img/avatars/photos/'. Auth::user()->image .'')}}" alt="">
                             <span class="status-indicator"></span>
 
                             <div class="dropdown-menu" role="menu">
@@ -1975,8 +1975,9 @@
                 <div class="page-content is-relative">
 
                     <div class="page-title has-text-centered">
+
                         <!-- Sidebar Trigger -->
-                        <div class="huro-hamburger nav-trigger push-resize" data-sidebar="layouts-sidebar">
+                        <div class="huro-hamburger nav-trigger push-resize" data-sidebar="home-sidebar">
                             <span class="menu-toggle has-chevron">
                                 <span class="icon-box-toggle">
                                     <span class="rotate">
@@ -1989,7 +1990,7 @@
                         </div>
 
                         <div class="title-wrap">
-                            <h1 class="title is-4">قالب خالی</h1>
+                            <h1 class="title is-4">ارسال غذا</h1>
                         </div>
 
                         <div class="toolbar ml-auto">
@@ -2002,7 +2003,7 @@
                             </div>
 
                             <a class="toolbar-link right-panel-trigger" data-panel="languages-panel">
-                                <img src="{{asset('assets/img/icons/flags/united-states-of-america.svg')}}" alt="">
+                                <img src="assets/img/icons/flags/united-states-of-america.svg" alt="">
                             </a>
 
                             <div class="toolbar-notifications is-hidden-mobile">
@@ -2028,7 +2029,7 @@
                                                         <div class="img-left">
                                                             <img class="user-photo" alt=""
                                                                 src="https://via.placeholder.com/150x150"
-                                                                data-demo-src="{{asset('assets/img/avatars/photos/7.jpg')}}" />
+                                                                data-demo-src="assets/img/avatars/photos/7.jpg" />
                                                         </div>
                                                         <div class="user-content">
                                                             <p class="user-info"><span class="name">آلیس</span> دیدگاهی
@@ -2042,7 +2043,7 @@
                                                         <div class="img-left">
                                                             <img class="user-photo" alt=""
                                                                 src="https://via.placeholder.com/150x150"
-                                                                data-demo-src="{{asset('assets/img/avatars/photos/12.jpg')}}" />
+                                                                data-demo-src="assets/img/avatars/photos/12.jpg" />
                                                         </div>
                                                         <div class="user-content">
                                                             <p class="user-info"><span class="name">پاشا</span> فایلی را
@@ -2056,7 +2057,7 @@
                                                         <div class="img-left">
                                                             <img class="user-photo" alt=""
                                                                 src="https://via.placeholder.com/150x150"
-                                                                data-demo-src="{{asset('assets/img/avatars/photos/13.jpg')}}" />
+                                                                data-demo-src="assets/img/avatars/photos/13.jpg" />
                                                         </div>
                                                         <div class="user-content">
                                                             <p class="user-info"><span class="name">رویا</span> به شما
@@ -2070,7 +2071,7 @@
                                                         <div class="img-left">
                                                             <img class="user-photo" alt=""
                                                                 src="https://via.placeholder.com/150x150"
-                                                                data-demo-src="{{asset('assets/img/avatars/photos/25.jpg')}}" />
+                                                                data-demo-src="assets/img/avatars/photos/25.jpg" />
                                                         </div>
                                                         <div class="user-content">
                                                             <p class="user-info"><span class="name">سارا</span> دیدگاهی
@@ -2090,7 +2091,20 @@
                                 <i data-feather="grid"></i>
                             </a>
                         </div>
+
+                        <form method="POST" action="{{ route('logout') }}">
+                            @csrf
+
+                            <x-dropdown-link :href="route('logout')" onclick="event.preventDefault();
+                                                this.closest('form').submit();">
+                                <div class="title-wrap">
+                                    <h1 class="title is-4">Log Out </h1>
+                                </div>
+
+                            </x-dropdown-link>
+                        </form>
                     </div>
+
 
                     <div class="page-content-inner">
                         <div class="container-fluid">
