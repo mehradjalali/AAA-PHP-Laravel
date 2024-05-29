@@ -157,6 +157,10 @@
                                 @foreach ($user->getRole() as $role)
                                 <p data-filter-match>{{$role}}</p>
                                 @endforeach
+                                @foreach ($roles as $role)
+                                <p data-filter-match>{{$role}}</p>
+                                @endforeach
+                                <p data-filet-match>{{$roleWithPermission}}</p>
                                 <div class="button-wrap has-text-centered">
                                     <button class="button h-button is-primary is-raised">اضافه کردن به پروژه</button>
                                     <div>
