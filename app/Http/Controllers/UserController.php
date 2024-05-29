@@ -6,9 +6,9 @@ use Illuminate\Support\Facades\Gate;
 
 class UserController extends Controller {
     public function allUsers() {
-        if (Gate::allows('hasPermission', 'allUsers')) {
+        if (!Gate::allows('hasPermission', 'allUsers')) {
             $users = User::all();
-            return view('users.allusers', compact('users', 'roles', 'roleWithPermission', 'hasPermission'));
+            return view('users.allusers', compact('users'));
         }
         abort(403);
     }
